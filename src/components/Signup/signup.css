@@ -1,0 +1,118 @@
+.signup{
+    margin: auto;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(214, 240, 238);
+    background-size: cover;
+    width: 100%; 
+}
+.welcome{
+    font-weight: 600;
+    font-size: 16px;
+}
+.product-name{
+    color: purple;
+    font-weight: 600;
+}
+.product-name-1{
+    color: var(--color-secondary)
+}
+.product-name-2{
+    color: red;
+    font-weight: 600;
+}
+.alert{
+    color: red;
+}
+form{
+    display: block;
+    width: 350px;
+    max-width: 350px;
+    margin-bottom: 6rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background-color: #ffffff;
+    background-size: cover;
+}
+h3, h6{
+    text-align: center;
+}
+h3{
+    letter-spacing: .9px;
+    font-weight: 600;
+}
+
+/* h6{
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .6px;
+} */
+.signup,
+form,
+input,
+.btn {
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+.btn {
+    width: 100%;
+    height: 55%;
+    /* padding: 1rem; */
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.company-tag{
+    display: flex;
+    flex-direction: row;
+}
+.company-name{
+    font-size: 16px;
+    color: var(--color-secondary);
+    margin-top: 0.85rem;
+    font-weight: 600;
+    letter-spacing: .6px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  ;
+}
+.logo{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+/* .link_forget{
+    text-align: center;
+    margin-top: 1rem;
+} */
+@media only screen and (max-width: 350px) {
+    .signup{
+        margin-top: 3rem;
+        width: 100%;
+        background-size: cover;
+        padding: 1rem;
+       
+    } 
+    form{
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .signup{
+        width: 100%;
+        background-size: cover;
+        padding: 1rem;
+        /* margin: 1rem; */
+    }
+    form{
+        width: 280px;
+        margin-bottom: 250px;
+    }
+
+}
